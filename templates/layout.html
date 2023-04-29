@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="render information Render Information Important important notes note use">
+    <title>Information Render</title>
+
+    <!-- BOOTSTRAP 5 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/bootstrap/bootstrap.min.css') }}" type="text/css" media="screen" title="no title" charset="utf-8">
+    <!-- CSS CUSTOM -->
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/custom.css') }}" type="text/css" media="screen" title="no title" charset="utf-8">
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+
+    <div class="container p-4">
+
+      {% block content %}
+      {% endblock %}
+
+    </div>
+
+  </body>
+</html>

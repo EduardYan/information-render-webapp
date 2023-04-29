@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  background-color: #08AEEA;
+  background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
+
+#title {
+  animation-duration: 1s;
+  animation-name: title;
+  animation-timing-function: ease;
+}
+
+#account-name:hover {
+  color: #444444;
+}
+
+/*.table {*/
+  /*transition-duration: 1s;*/
+  /*transition-delay: .5s;*/
+  /*transition-property: background-color;*/
+/*}*/
+
+@keyframes title {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
